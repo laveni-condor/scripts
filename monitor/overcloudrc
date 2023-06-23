@@ -1,0 +1,19 @@
+# Clear any old environment that may conflict.
+export NOVA_VERSION=1.1
+export COMPUTE_API_VERSION=1.1
+export OS_USERNAME=admin
+export OS_PROJECT_NAME=admin
+export OS_USER_DOMAIN_NAME=Default
+export OS_PROJECT_DOMAIN_NAME=Default
+export OS_NO_CACHE=True
+export OS_CLOUDNAME=overcloud
+export no_proxy=,10.1.2.7,192.168.100.7
+export PYTHONWARNINGS='ignore:Certificate has no, ignore:A true SSLContext object is not available'
+export OS_AUTH_TYPE=password
+export OS_PASSWORD=c8x0tSHLElqNTZlrtGr7ob652
+export OS_AUTH_URL=http://10.1.2.7:5000
+export OS_IDENTITY_API_VERSION=3
+export OS_COMPUTE_API_VERSION=2.latest
+export OS_IMAGE_API_VERSION=2
+export OS_VOLUME_API_VERSION=3
+export OS_REGION_NAME=regionOne

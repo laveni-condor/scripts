@@ -1,0 +1,36 @@
+compute-00_RAM,OK,RAM usage: 11.17 %
+compute-00_hypervisor,OK,Hypervisor is up.
+compute-00_loadavg,OK,"Load average: 0.36 0.51 0.54
+IOWAIT: 0.03
+IDLE: 99.56"
+compute-00_containers,OK,All podman containers are up
+compute-01_RAM,OK,RAM usage: 19.41 %
+compute-01_hypervisor,OK,Hypervisor is up.
+compute-01_loadavg,OK,"Load average: 2.10 2.04 2.06
+IOWAIT: 0.03
+IDLE: 97.45"
+compute-01_containers,OK,All podman containers are up
+compute-02_RAM,OK,RAM usage: 15.95 %
+compute-02_hypervisor,OK,Hypervisor is up.
+compute-02_loadavg,OK,"Load average: 0.29 0.35 0.31
+IOWAIT: 0.06
+IDLE: 99.47"
+compute-02_containers,OK,All podman containers are up
+controller-00_RAM,OK,RAM usage: 24.02 %
+controller-00_loadavg,OK,"Load average: 0.89 1.02 0.98
+IOWAIT: 0.01
+IDLE: 97.80"
+controller-00_containers,OK,All podman containers are up
+controller-01_RAM,OK,RAM usage: 22.83 %
+controller-01_loadavg,OK,"Load average: 1.19 1.35 1.07
+IOWAIT: 0.01
+IDLE: 97.88"
+controller-01_containers,OK,All podman containers are up
+controller-02_RAM,OK,RAM usage: 22.88 %
+controller-02_loadavg,OK,"Load average: 0.73 1.02 1.09
+IOWAIT: 0.01
+IDLE: 97.91"
+controller-02_containers,OK,All podman containers are up
+Ceph_status,WARNING,The next OSDs are down: osd.12 in overcloud-compute-02. 
+Horizon_status,OK,Horizon is up.
+Galera_status,OK,Galera cluster node is synced.
